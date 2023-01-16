@@ -24,7 +24,7 @@ bg_color = 0, 0, 0
 
 plr_color = 255, 0, 0
 plr_size = [30, 30]
-plr_pos = [(width - plr_size[0])/5, (height - plr_size[1])/2]
+plr_pos = [int((width - plr_size[0])/5), int((height - plr_size[1])/2)]
 
 pip_color = 0, 255, 0
 pip_spd = 0.05
